@@ -1,0 +1,13 @@
+# Python / Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.vscode/
+
+# Power BI project: local cache and personal settings (Microsoft's recommendation for .pbip)
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+*.pbix
+
+# Duplicate of outputs/powerbi_data/patients_scored.csv - recreated by running the notebook
+data/processed/

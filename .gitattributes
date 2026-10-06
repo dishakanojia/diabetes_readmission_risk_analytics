@@ -1,0 +1,4 @@
+# Keep data files byte-for-byte (the SQL load expects Windows CRLF line endings)
+*.csv -text
+*.png binary
+*.pdf binary
